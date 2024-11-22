@@ -6,7 +6,7 @@ namespace CleanArchitect.Migration;
 
 internal class Program
 {
-    private static readonly string _dbName = "LoanManagementSystem_DB";
+    private static readonly string _dbName = "DataBaseName";
 
     private static readonly string _connectionStringWithoutDatabase =
         "server=.;Trusted_Connection=True;Encrypt=false;TrustServerCertificate=true;";
