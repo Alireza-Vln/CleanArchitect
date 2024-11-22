@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\welldone\\Desktop\\clean-architect\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{69C71AA6-F672-4201-87FA-F75C1B877A61}|CleanArchitect.Infrastructure\\CleanArchitect.Infrastructure.csproj|c:\\users\\welldone\\desktop\\clean-architect\\cleanarchitect.infrastructure\\cleanarchitect.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{69C71AA6-F672-4201-87FA-F75C1B877A61}|CleanArchitect.Infrastructure\\CleanArchitect.Infrastructure.csproj|solutionrelative:cleanarchitect.infrastructure\\cleanarchitect.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CleanArchitect.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Infrastructure\\CleanArchitect.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "CleanArchitect.Infrastructure\\CleanArchitect.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Infrastructure\\CleanArchitect.Infrastructure.csproj",
+              "RelativeToolTip": "CleanArchitect.Infrastructure\\CleanArchitect.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-22T16:35:51.785Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

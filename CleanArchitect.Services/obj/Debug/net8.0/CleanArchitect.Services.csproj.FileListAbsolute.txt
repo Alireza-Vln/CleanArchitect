@@ -1,0 +1,11 @@
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Services\bin\Debug\net8.0\CleanArchitect.Services.deps.json
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Services\bin\Debug\net8.0\CleanArchitect.Services.dll
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Services\bin\Debug\net8.0\CleanArchitect.Services.pdb
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Services\obj\Debug\net8.0\CleanArchitect.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Services\obj\Debug\net8.0\CleanArchitect.Services.AssemblyInfoInputs.cache
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Services\obj\Debug\net8.0\CleanArchitect.Services.AssemblyInfo.cs
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Services\obj\Debug\net8.0\CleanArchitect.Services.csproj.CoreCompileInputs.cache
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Services\obj\Debug\net8.0\CleanArchitect.Services.dll
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Services\obj\Debug\net8.0\refint\CleanArchitect.Services.dll
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Services\obj\Debug\net8.0\CleanArchitect.Services.pdb
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Services\obj\Debug\net8.0\ref\CleanArchitect.Services.dll

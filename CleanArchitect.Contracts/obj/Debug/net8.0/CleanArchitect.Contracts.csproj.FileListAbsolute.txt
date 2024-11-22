@@ -1,0 +1,11 @@
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Contracts\bin\Debug\net8.0\CleanArchitect.Contracts.deps.json
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Contracts\bin\Debug\net8.0\CleanArchitect.Contracts.dll
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Contracts\bin\Debug\net8.0\CleanArchitect.Contracts.pdb
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Contracts\obj\Debug\net8.0\CleanArchitect.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Contracts\obj\Debug\net8.0\CleanArchitect.Contracts.AssemblyInfoInputs.cache
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Contracts\obj\Debug\net8.0\CleanArchitect.Contracts.AssemblyInfo.cs
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Contracts\obj\Debug\net8.0\CleanArchitect.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Contracts\obj\Debug\net8.0\CleanArchitect.Contracts.dll
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Contracts\obj\Debug\net8.0\refint\CleanArchitect.Contracts.dll
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Contracts\obj\Debug\net8.0\CleanArchitect.Contracts.pdb
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Contracts\obj\Debug\net8.0\ref\CleanArchitect.Contracts.dll

@@ -1,0 +1,11 @@
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Entities\bin\Debug\net8.0\CleanArchitect.Entities.deps.json
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Entities\bin\Debug\net8.0\CleanArchitect.Entities.dll
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Entities\bin\Debug\net8.0\CleanArchitect.Entities.pdb
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Entities\obj\Debug\net8.0\CleanArchitect.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Entities\obj\Debug\net8.0\CleanArchitect.Entities.AssemblyInfoInputs.cache
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Entities\obj\Debug\net8.0\CleanArchitect.Entities.AssemblyInfo.cs
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Entities\obj\Debug\net8.0\CleanArchitect.Entities.csproj.CoreCompileInputs.cache
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Entities\obj\Debug\net8.0\CleanArchitect.Entities.dll
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Entities\obj\Debug\net8.0\refint\CleanArchitect.Entities.dll
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Entities\obj\Debug\net8.0\CleanArchitect.Entities.pdb
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Entities\obj\Debug\net8.0\ref\CleanArchitect.Entities.dll
