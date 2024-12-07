@@ -5,6 +5,7 @@ C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Entities\obj\Debug\net8
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Entities\obj\Debug\net8.0\CleanArchitect.Entities.AssemblyInfoInputs.cache
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Entities\obj\Debug\net8.0\CleanArchitect.Entities.AssemblyInfo.cs
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Entities\obj\Debug\net8.0\CleanArchitect.Entities.csproj.CoreCompileInputs.cache
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Entities\obj\Debug\net8.0\CleanArchitect.Entities.sourcelink.json
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Entities\obj\Debug\net8.0\CleanArchitect.Entities.dll
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Entities\obj\Debug\net8.0\refint\CleanArchitect.Entities.dll
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Entities\obj\Debug\net8.0\CleanArchitect.Entities.pdb

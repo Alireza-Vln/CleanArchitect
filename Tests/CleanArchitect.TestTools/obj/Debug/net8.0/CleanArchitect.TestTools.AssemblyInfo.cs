@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CleanArchitect.TestTools")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ccc69e952d00f35832a48219fa0fd664526e3729")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9665ad67c2c353d44b368f21797992aa1c11445")]
 [assembly: System.Reflection.AssemblyProductAttribute("CleanArchitect.TestTools")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CleanArchitect.TestTools")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

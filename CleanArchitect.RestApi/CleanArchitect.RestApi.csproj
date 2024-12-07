@@ -14,7 +14,12 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\CleanArchitect.Persistence.Ef\CleanArchitect.Persistence.Ef.csproj" />
+      <ProjectReference Include="..\CleanArchitect.Persistence.EFfff\CleanArchitect.Persistence.EFfff.csproj" />
+      <ProjectReference Include="..\CleanArchitect.Persistence.EF\CleanArchitect.Persistence.EF.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Controller\" />
     </ItemGroup>
 
 </Project>

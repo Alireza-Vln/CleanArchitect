@@ -3,6 +3,38 @@
   "WorkspaceRootPath": "C:\\Users\\welldone\\Desktop\\clean-architect\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2D775135-9343-49D2-A67C-238701CE4E41}|Tests\\CleanArchitect.Service.Unit.Tests\\CleanArchitect.Service.Unit.Tests.csproj|c:\\users\\welldone\\desktop\\clean-architect\\tests\\cleanarchitect.service.unit.tests\\cleanarchitect.service.unit.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2D775135-9343-49D2-A67C-238701CE4E41}|Tests\\CleanArchitect.Service.Unit.Tests\\CleanArchitect.Service.Unit.Tests.csproj|solutionrelative:tests\\cleanarchitect.service.unit.tests\\cleanarchitect.service.unit.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{080CEB01-1DDA-4839-8874-DF4C0B70B3EB}|Tests\\CleanArchitect.TestTools\\CleanArchitect.TestTools.csproj|c:\\users\\welldone\\desktop\\clean-architect\\tests\\cleanarchitect.testtools\\cleanarchitect.testtools.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{080CEB01-1DDA-4839-8874-DF4C0B70B3EB}|Tests\\CleanArchitect.TestTools\\CleanArchitect.TestTools.csproj|solutionrelative:tests\\cleanarchitect.testtools\\cleanarchitect.testtools.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{080CEB01-1DDA-4839-8874-DF4C0B70B3EB}|Tests\\CleanArchitect.TestTools\\CleanArchitect.TestTools.csproj|c:\\users\\welldone\\desktop\\clean-architect\\tests\\cleanarchitect.testtools\\infrastructure\\databaseconfig\\enumerablehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{080CEB01-1DDA-4839-8874-DF4C0B70B3EB}|Tests\\CleanArchitect.TestTools\\CleanArchitect.TestTools.csproj|solutionrelative:tests\\cleanarchitect.testtools\\infrastructure\\databaseconfig\\enumerablehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{080CEB01-1DDA-4839-8874-DF4C0B70B3EB}|Tests\\CleanArchitect.TestTools\\CleanArchitect.TestTools.csproj|c:\\users\\welldone\\desktop\\clean-architect\\tests\\cleanarchitect.testtools\\infrastructure\\databaseconfig\\dbcontexthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{080CEB01-1DDA-4839-8874-DF4C0B70B3EB}|Tests\\CleanArchitect.TestTools\\CleanArchitect.TestTools.csproj|solutionrelative:tests\\cleanarchitect.testtools\\infrastructure\\databaseconfig\\dbcontexthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{080CEB01-1DDA-4839-8874-DF4C0B70B3EB}|Tests\\CleanArchitect.TestTools\\CleanArchitect.TestTools.csproj|c:\\users\\welldone\\desktop\\clean-architect\\tests\\cleanarchitect.testtools\\infrastructure\\databaseconfig\\integration\\businessintegrationtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{080CEB01-1DDA-4839-8874-DF4C0B70B3EB}|Tests\\CleanArchitect.TestTools\\CleanArchitect.TestTools.csproj|solutionrelative:tests\\cleanarchitect.testtools\\infrastructure\\databaseconfig\\integration\\businessintegrationtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{080CEB01-1DDA-4839-8874-DF4C0B70B3EB}|Tests\\CleanArchitect.TestTools\\CleanArchitect.TestTools.csproj|c:\\users\\welldone\\desktop\\clean-architect\\tests\\cleanarchitect.testtools\\infrastructure\\databaseconfig\\integration\\fixtures\\configurationfixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{080CEB01-1DDA-4839-8874-DF4C0B70B3EB}|Tests\\CleanArchitect.TestTools\\CleanArchitect.TestTools.csproj|solutionrelative:tests\\cleanarchitect.testtools\\infrastructure\\databaseconfig\\integration\\fixtures\\configurationfixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{080CEB01-1DDA-4839-8874-DF4C0B70B3EB}|Tests\\CleanArchitect.TestTools\\CleanArchitect.TestTools.csproj|c:\\users\\welldone\\desktop\\clean-architect\\tests\\cleanarchitect.testtools\\infrastructure\\databaseconfig\\integration\\fixtures\\databasefixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{080CEB01-1DDA-4839-8874-DF4C0B70B3EB}|Tests\\CleanArchitect.TestTools\\CleanArchitect.TestTools.csproj|solutionrelative:tests\\cleanarchitect.testtools\\infrastructure\\databaseconfig\\integration\\fixtures\\databasefixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{080CEB01-1DDA-4839-8874-DF4C0B70B3EB}|Tests\\CleanArchitect.TestTools\\CleanArchitect.TestTools.csproj|c:\\users\\welldone\\desktop\\clean-architect\\tests\\cleanarchitect.testtools\\infrastructure\\databaseconfig\\integration\\fixtures\\efdatacontextdatabasefixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{080CEB01-1DDA-4839-8874-DF4C0B70B3EB}|Tests\\CleanArchitect.TestTools\\CleanArchitect.TestTools.csproj|solutionrelative:tests\\cleanarchitect.testtools\\infrastructure\\databaseconfig\\integration\\fixtures\\efdatacontextdatabasefixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{69C71AA6-F672-4201-87FA-F75C1B877A61}|CleanArchitect.Infrastructure\\CleanArchitect.Infrastructure.csproj|c:\\users\\welldone\\desktop\\clean-architect\\cleanarchitect.infrastructure\\cleanarchitect.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{69C71AA6-F672-4201-87FA-F75C1B877A61}|CleanArchitect.Infrastructure\\CleanArchitect.Infrastructure.csproj|solutionrelative:cleanarchitect.infrastructure\\cleanarchitect.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
@@ -14,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,7 +54,111 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CleanArchitect.TestTools",
+              "DocumentMoniker": "C:\\Users\\welldone\\Desktop\\clean-architect\\Tests\\CleanArchitect.TestTools\\CleanArchitect.TestTools.csproj",
+              "RelativeDocumentMoniker": "Tests\\CleanArchitect.TestTools\\CleanArchitect.TestTools.csproj",
+              "ToolTip": "C:\\Users\\welldone\\Desktop\\clean-architect\\Tests\\CleanArchitect.TestTools\\CleanArchitect.TestTools.csproj",
+              "RelativeToolTip": "Tests\\CleanArchitect.TestTools\\CleanArchitect.TestTools.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-29T15:12:19.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnumerableHelper.cs",
+              "DocumentMoniker": "C:\\Users\\welldone\\Desktop\\clean-architect\\Tests\\CleanArchitect.TestTools\\Infrastructure\\DataBaseConfig\\EnumerableHelper.cs",
+              "RelativeDocumentMoniker": "Tests\\CleanArchitect.TestTools\\Infrastructure\\DataBaseConfig\\EnumerableHelper.cs",
+              "ToolTip": "C:\\Users\\welldone\\Desktop\\clean-architect\\Tests\\CleanArchitect.TestTools\\Infrastructure\\DataBaseConfig\\EnumerableHelper.cs",
+              "RelativeToolTip": "Tests\\CleanArchitect.TestTools\\Infrastructure\\DataBaseConfig\\EnumerableHelper.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCQAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T15:05:06.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DbContextHelper.cs",
+              "DocumentMoniker": "C:\\Users\\welldone\\Desktop\\clean-architect\\Tests\\CleanArchitect.TestTools\\Infrastructure\\DataBaseConfig\\DbContextHelper.cs",
+              "RelativeDocumentMoniker": "Tests\\CleanArchitect.TestTools\\Infrastructure\\DataBaseConfig\\DbContextHelper.cs",
+              "ToolTip": "C:\\Users\\welldone\\Desktop\\clean-architect\\Tests\\CleanArchitect.TestTools\\Infrastructure\\DataBaseConfig\\DbContextHelper.cs",
+              "RelativeToolTip": "Tests\\CleanArchitect.TestTools\\Infrastructure\\DataBaseConfig\\DbContextHelper.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T15:05:03.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BusinessIntegrationTest.cs",
+              "DocumentMoniker": "C:\\Users\\welldone\\Desktop\\clean-architect\\Tests\\CleanArchitect.TestTools\\Infrastructure\\DataBaseConfig\\Integration\\BusinessIntegrationTest.cs",
+              "RelativeDocumentMoniker": "Tests\\CleanArchitect.TestTools\\Infrastructure\\DataBaseConfig\\Integration\\BusinessIntegrationTest.cs",
+              "ToolTip": "C:\\Users\\welldone\\Desktop\\clean-architect\\Tests\\CleanArchitect.TestTools\\Infrastructure\\DataBaseConfig\\Integration\\BusinessIntegrationTest.cs",
+              "RelativeToolTip": "Tests\\CleanArchitect.TestTools\\Infrastructure\\DataBaseConfig\\Integration\\BusinessIntegrationTest.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T15:04:59.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ConfigurationFixture.cs",
+              "DocumentMoniker": "C:\\Users\\welldone\\Desktop\\clean-architect\\Tests\\CleanArchitect.TestTools\\Infrastructure\\DataBaseConfig\\Integration\\Fixtures\\ConfigurationFixture.cs",
+              "RelativeDocumentMoniker": "Tests\\CleanArchitect.TestTools\\Infrastructure\\DataBaseConfig\\Integration\\Fixtures\\ConfigurationFixture.cs",
+              "ToolTip": "C:\\Users\\welldone\\Desktop\\clean-architect\\Tests\\CleanArchitect.TestTools\\Infrastructure\\DataBaseConfig\\Integration\\Fixtures\\ConfigurationFixture.cs",
+              "RelativeToolTip": "Tests\\CleanArchitect.TestTools\\Infrastructure\\DataBaseConfig\\Integration\\Fixtures\\ConfigurationFixture.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T15:04:53.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DatabaseFixture.cs",
+              "DocumentMoniker": "C:\\Users\\welldone\\Desktop\\clean-architect\\Tests\\CleanArchitect.TestTools\\Infrastructure\\DataBaseConfig\\Integration\\Fixtures\\DatabaseFixture.cs",
+              "RelativeDocumentMoniker": "Tests\\CleanArchitect.TestTools\\Infrastructure\\DataBaseConfig\\Integration\\Fixtures\\DatabaseFixture.cs",
+              "ToolTip": "C:\\Users\\welldone\\Desktop\\clean-architect\\Tests\\CleanArchitect.TestTools\\Infrastructure\\DataBaseConfig\\Integration\\Fixtures\\DatabaseFixture.cs",
+              "RelativeToolTip": "Tests\\CleanArchitect.TestTools\\Infrastructure\\DataBaseConfig\\Integration\\Fixtures\\DatabaseFixture.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T15:04:50.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EFDataContextDatabaseFixture.cs",
+              "DocumentMoniker": "C:\\Users\\welldone\\Desktop\\clean-architect\\Tests\\CleanArchitect.TestTools\\Infrastructure\\DataBaseConfig\\Integration\\Fixtures\\EFDataContextDatabaseFixture.cs",
+              "RelativeDocumentMoniker": "Tests\\CleanArchitect.TestTools\\Infrastructure\\DataBaseConfig\\Integration\\Fixtures\\EFDataContextDatabaseFixture.cs",
+              "ToolTip": "C:\\Users\\welldone\\Desktop\\clean-architect\\Tests\\CleanArchitect.TestTools\\Infrastructure\\DataBaseConfig\\Integration\\Fixtures\\EFDataContextDatabaseFixture.cs",
+              "RelativeToolTip": "Tests\\CleanArchitect.TestTools\\Infrastructure\\DataBaseConfig\\Integration\\Fixtures\\EFDataContextDatabaseFixture.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T15:04:47.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CleanArchitect.Service.Unit.Tests",
+              "DocumentMoniker": "C:\\Users\\welldone\\Desktop\\clean-architect\\Tests\\CleanArchitect.Service.Unit.Tests\\CleanArchitect.Service.Unit.Tests.csproj",
+              "RelativeDocumentMoniker": "Tests\\CleanArchitect.Service.Unit.Tests\\CleanArchitect.Service.Unit.Tests.csproj",
+              "ToolTip": "C:\\Users\\welldone\\Desktop\\clean-architect\\Tests\\CleanArchitect.Service.Unit.Tests\\CleanArchitect.Service.Unit.Tests.csproj",
+              "RelativeToolTip": "Tests\\CleanArchitect.Service.Unit.Tests\\CleanArchitect.Service.Unit.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-29T15:02:28.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "CleanArchitect.Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Infrastructure\\CleanArchitect.Infrastructure.csproj",
               "RelativeDocumentMoniker": "CleanArchitect.Infrastructure\\CleanArchitect.Infrastructure.csproj",

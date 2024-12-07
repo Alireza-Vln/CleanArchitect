@@ -5,6 +5,7 @@ C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Contracts\obj\Debug\net
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Contracts\obj\Debug\net8.0\CleanArchitect.Contracts.AssemblyInfoInputs.cache
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Contracts\obj\Debug\net8.0\CleanArchitect.Contracts.AssemblyInfo.cs
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Contracts\obj\Debug\net8.0\CleanArchitect.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Contracts\obj\Debug\net8.0\CleanArchitect.Contracts.sourcelink.json
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Contracts\obj\Debug\net8.0\CleanArchitect.Contracts.dll
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Contracts\obj\Debug\net8.0\refint\CleanArchitect.Contracts.dll
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Contracts\obj\Debug\net8.0\CleanArchitect.Contracts.pdb

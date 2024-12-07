@@ -5,6 +5,7 @@ C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Application\obj\Debug\n
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Application\obj\Debug\net8.0\CleanArchitect.Application.AssemblyInfoInputs.cache
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Application\obj\Debug\net8.0\CleanArchitect.Application.AssemblyInfo.cs
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Application\obj\Debug\net8.0\CleanArchitect.Application.csproj.CoreCompileInputs.cache
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Application\obj\Debug\net8.0\CleanArchitect.Application.sourcelink.json
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Application\obj\Debug\net8.0\CleanArchitect.Application.dll
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Application\obj\Debug\net8.0\refint\CleanArchitect.Application.dll
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Application\obj\Debug\net8.0\CleanArchitect.Application.pdb

@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v8.0": {
       "CleanArchitect.RestApi/1.0.0": {
         "dependencies": {
-          "CleanArchitect.Persistence.Ef": "1.0.0",
+          "CleanArchitect.Persistence.EF": "1.0.0",
+          "CleanArchitect.Persistence.EFfff": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "8.0.10",
           "Microsoft.EntityFrameworkCore": "8.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8",
@@ -581,22 +582,25 @@
           }
         }
       },
-      "CleanArchitect.Persistence.Ef/1.0.0": {
+      "CleanArchitect.Persistence.EF/1.0.0": {
         "dependencies": {
           "CleanArchitect.Contracts": "1.0.0",
-          "CleanArchitect.Entities": "1.0.0",
           "CleanArchitect.Services": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8"
         },
         "runtime": {
-          "CleanArchitect.Persistence.Ef.dll": {
+          "CleanArchitect.Persistence.EF.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
       },
       "CleanArchitect.Services/1.0.0": {
+        "dependencies": {
+          "CleanArchitect.Contracts": "1.0.0",
+          "CleanArchitect.Entities": "1.0.0"
+        },
         "runtime": {
           "CleanArchitect.Services.dll": {
             "assemblyVersion": "1.0.0",
@@ -1056,7 +1060,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "CleanArchitect.Persistence.Ef/1.0.0": {
+    "CleanArchitect.Persistence.EF/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

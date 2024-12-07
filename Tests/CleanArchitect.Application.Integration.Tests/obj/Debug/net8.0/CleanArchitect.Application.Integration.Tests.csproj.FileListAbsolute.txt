@@ -100,6 +100,7 @@ C:\Users\welldone\Desktop\clean-architect\Tests\CleanArchitect.Application.Integ
 C:\Users\welldone\Desktop\clean-architect\Tests\CleanArchitect.Application.Integration.Tests\obj\Debug\net8.0\CleanArchitect.Application.Integration.Tests.AssemblyInfoInputs.cache
 C:\Users\welldone\Desktop\clean-architect\Tests\CleanArchitect.Application.Integration.Tests\obj\Debug\net8.0\CleanArchitect.Application.Integration.Tests.AssemblyInfo.cs
 C:\Users\welldone\Desktop\clean-architect\Tests\CleanArchitect.Application.Integration.Tests\obj\Debug\net8.0\CleanArchitect.Application.Integration.Tests.csproj.CoreCompileInputs.cache
+C:\Users\welldone\Desktop\clean-architect\Tests\CleanArchitect.Application.Integration.Tests\obj\Debug\net8.0\CleanArchitect.Application.Integration.Tests.sourcelink.json
 C:\Users\welldone\Desktop\clean-architect\Tests\CleanArchitect.Application.Integration.Tests\obj\Debug\net8.0\CleanArc.6A0880EF.Up2Date
 C:\Users\welldone\Desktop\clean-architect\Tests\CleanArchitect.Application.Integration.Tests\obj\Debug\net8.0\CleanArchitect.Application.Integration.Tests.dll
 C:\Users\welldone\Desktop\clean-architect\Tests\CleanArchitect.Application.Integration.Tests\obj\Debug\net8.0\refint\CleanArchitect.Application.Integration.Tests.dll

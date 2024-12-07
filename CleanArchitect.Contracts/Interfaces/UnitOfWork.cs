@@ -2,7 +2,8 @@
 
 public interface UnitOfWork
 {
-    void Save();
+    Task Complete();
+     void Save();
     Task Begin();
     Task Rollback();
     Task Commit();

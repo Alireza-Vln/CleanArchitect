@@ -18,8 +18,13 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\CleanArchitect.Persistence.Ef\CleanArchitect.Persistence.Ef.csproj" />
+        <None Update="appsettings.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
     </ItemGroup>
 
+    <ItemGroup>
+        <ProjectReference Include="..\..\CleanArchitect.Persistence.EF\CleanArchitect.Persistence.EF.csproj" />
 
+    </ItemGroup>
 </Project>

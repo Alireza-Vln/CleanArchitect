@@ -1,4 +1,4 @@
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace CleanArchitect.TestTools.Infrastructure.DataBaseConfig;
 
@@ -12,7 +12,7 @@ public static class DbContextHelper
         manipulate(dbContext);
         dbContext.SaveChanges();
     }
-    
+
     public static void Save<TDbContext, TEntity>(
         this TDbContext dbContext,
         TEntity entity)
@@ -22,14 +22,5 @@ public static class DbContextHelper
         dbContext.Add(entity);
         dbContext.SaveChanges();
     }
-
-    public static void SaveRange<TDbContext, TEntity>(
-        this TDbContext dbContext,
-        params TEntity[] entities)
-        where TDbContext : DbContext
-        where TEntity : class, new()
-    {
-        entities.ForEach(entity => dbContext.Add(entity));
-        dbContext.SaveChanges();
-    }
+    
 }

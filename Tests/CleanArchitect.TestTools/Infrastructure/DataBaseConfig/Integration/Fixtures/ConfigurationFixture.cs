@@ -1,4 +1,4 @@
-using Microsoft.Extensions.Configuration;
+﻿using Microsoft.Extensions.Configuration;
 using Xunit;
 
 namespace CleanArchitect.TestTools.Infrastructure.DataBaseConfig.Integration.Fixtures;
@@ -37,6 +37,5 @@ public class PersistenceConfig
     DisableParallelization = false)]
 public class
     ConfigurationCollectionFixture : ICollectionFixture<
-        ConfigurationFixture>
-{
-}
+    ConfigurationFixture>
+{}

@@ -7,4 +7,9 @@
         <RootNamespace>CleanArchitect.Services</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\CleanArchitect.Contracts\CleanArchitect.Contracts.csproj" />
+      <ProjectReference Include="..\CleanArchitect.Entities\CleanArchitect.Entities.csproj" />
+    </ItemGroup>
+
 </Project>

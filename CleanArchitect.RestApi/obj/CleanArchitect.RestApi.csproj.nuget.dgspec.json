@@ -116,14 +116,14 @@
         }
       }
     },
-    "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Persistence.Ef\\CleanArchitect.Persistence.Ef.csproj": {
+    "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Persistence.EFfff\\CleanArchitect.Persistence.EFfff.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Persistence.Ef\\CleanArchitect.Persistence.Ef.csproj",
-        "projectName": "CleanArchitect.Persistence.Ef",
-        "projectPath": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Persistence.Ef\\CleanArchitect.Persistence.Ef.csproj",
+        "projectUniqueName": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Persistence.EFfff\\CleanArchitect.Persistence.EFfff.csproj",
+        "projectName": "CleanArchitect.Persistence.EFfff",
+        "projectPath": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Persistence.EFfff\\CleanArchitect.Persistence.EFfff.csproj",
         "packagesPath": "C:\\Users\\welldone\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Persistence.Ef\\obj\\",
+        "outputPath": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Persistence.EFfff\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\welldone\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -146,6 +146,79 @@
               },
               "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Entities\\CleanArchitect.Entities.csproj": {
                 "projectPath": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Entities\\CleanArchitect.Entities.csproj"
+              },
+              "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Services\\CleanArchitect.Services.csproj": {
+                "projectPath": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Services\\CleanArchitect.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Persistence.EF\\CleanArchitect.Persistence.EF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Persistence.EF\\CleanArchitect.Persistence.EF.csproj",
+        "projectName": "CleanArchitect.Persistence.EF",
+        "projectPath": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Persistence.EF\\CleanArchitect.Persistence.EF.csproj",
+        "packagesPath": "C:\\Users\\welldone\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Persistence.EF\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\welldone\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://azure.taavserver.ir:81/Taav/ERP/_packaging/TaavNuget/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Contracts\\CleanArchitect.Contracts.csproj": {
+                "projectPath": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Contracts\\CleanArchitect.Contracts.csproj"
               },
               "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Services\\CleanArchitect.Services.csproj": {
                 "projectPath": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Services\\CleanArchitect.Services.csproj"
@@ -217,8 +290,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Persistence.Ef\\CleanArchitect.Persistence.Ef.csproj": {
-                "projectPath": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Persistence.Ef\\CleanArchitect.Persistence.Ef.csproj"
+              "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Persistence.EFfff\\CleanArchitect.Persistence.EFfff.csproj": {
+                "projectPath": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Persistence.EFfff\\CleanArchitect.Persistence.EFfff.csproj"
+              },
+              "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Persistence.EF\\CleanArchitect.Persistence.EF.csproj": {
+                "projectPath": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Persistence.EF\\CleanArchitect.Persistence.EF.csproj"
               }
             }
           }
@@ -297,7 +373,14 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Contracts\\CleanArchitect.Contracts.csproj": {
+                "projectPath": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Contracts\\CleanArchitect.Contracts.csproj"
+              },
+              "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Entities\\CleanArchitect.Entities.csproj": {
+                "projectPath": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Entities\\CleanArchitect.Entities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

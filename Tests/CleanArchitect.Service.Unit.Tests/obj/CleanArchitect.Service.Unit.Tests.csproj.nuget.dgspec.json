@@ -4,6 +4,254 @@
     "C:\\Users\\welldone\\Desktop\\clean-architect\\Tests\\CleanArchitect.Service.Unit.Tests\\CleanArchitect.Service.Unit.Tests.csproj": {}
   },
   "projects": {
+    "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Contracts\\CleanArchitect.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Contracts\\CleanArchitect.Contracts.csproj",
+        "projectName": "CleanArchitect.Contracts",
+        "projectPath": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Contracts\\CleanArchitect.Contracts.csproj",
+        "packagesPath": "C:\\Users\\welldone\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\welldone\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://azure.taavserver.ir:81/Taav/ERP/_packaging/TaavNuget/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Entities\\CleanArchitect.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Entities\\CleanArchitect.Entities.csproj",
+        "projectName": "CleanArchitect.Entities",
+        "projectPath": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Entities\\CleanArchitect.Entities.csproj",
+        "packagesPath": "C:\\Users\\welldone\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\welldone\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://azure.taavserver.ir:81/Taav/ERP/_packaging/TaavNuget/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Persistence.EF\\CleanArchitect.Persistence.EF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Persistence.EF\\CleanArchitect.Persistence.EF.csproj",
+        "projectName": "CleanArchitect.Persistence.EF",
+        "projectPath": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Persistence.EF\\CleanArchitect.Persistence.EF.csproj",
+        "packagesPath": "C:\\Users\\welldone\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Persistence.EF\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\welldone\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://azure.taavserver.ir:81/Taav/ERP/_packaging/TaavNuget/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Contracts\\CleanArchitect.Contracts.csproj": {
+                "projectPath": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Contracts\\CleanArchitect.Contracts.csproj"
+              },
+              "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Services\\CleanArchitect.Services.csproj": {
+                "projectPath": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Services\\CleanArchitect.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Services\\CleanArchitect.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Services\\CleanArchitect.Services.csproj",
+        "projectName": "CleanArchitect.Services",
+        "projectPath": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Services\\CleanArchitect.Services.csproj",
+        "packagesPath": "C:\\Users\\welldone\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\welldone\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://azure.taavserver.ir:81/Taav/ERP/_packaging/TaavNuget/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Contracts\\CleanArchitect.Contracts.csproj": {
+                "projectPath": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Contracts\\CleanArchitect.Contracts.csproj"
+              },
+              "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Entities\\CleanArchitect.Entities.csproj": {
+                "projectPath": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Entities\\CleanArchitect.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\welldone\\Desktop\\clean-architect\\Tests\\CleanArchitect.Service.Unit.Tests\\CleanArchitect.Service.Unit.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -28,7 +276,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\welldone\\Desktop\\clean-architect\\Tests\\CleanArchitect.TestTools\\CleanArchitect.TestTools.csproj": {
+                "projectPath": "C:\\Users\\welldone\\Desktop\\clean-architect\\Tests\\CleanArchitect.TestTools\\CleanArchitect.TestTools.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -93,6 +345,100 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\welldone\\Desktop\\clean-architect\\Tests\\CleanArchitect.TestTools\\CleanArchitect.TestTools.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\welldone\\Desktop\\clean-architect\\Tests\\CleanArchitect.TestTools\\CleanArchitect.TestTools.csproj",
+        "projectName": "CleanArchitect.TestTools",
+        "projectPath": "C:\\Users\\welldone\\Desktop\\clean-architect\\Tests\\CleanArchitect.TestTools\\CleanArchitect.TestTools.csproj",
+        "packagesPath": "C:\\Users\\welldone\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\welldone\\Desktop\\clean-architect\\Tests\\CleanArchitect.TestTools\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\welldone\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://azure.taavserver.ir:81/Taav/ERP/_packaging/TaavNuget/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Persistence.EF\\CleanArchitect.Persistence.EF.csproj": {
+                "projectPath": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Persistence.EF\\CleanArchitect.Persistence.EF.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.Extensions.Configuration.CommandLine": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "xunit.extensibility.core": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

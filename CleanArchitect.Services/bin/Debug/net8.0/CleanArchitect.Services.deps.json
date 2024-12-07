@@ -7,14 +7,44 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "CleanArchitect.Services/1.0.0": {
+        "dependencies": {
+          "CleanArchitect.Contracts": "1.0.0",
+          "CleanArchitect.Entities": "1.0.0"
+        },
         "runtime": {
           "CleanArchitect.Services.dll": {}
+        }
+      },
+      "CleanArchitect.Contracts/1.0.0": {
+        "runtime": {
+          "CleanArchitect.Contracts.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "CleanArchitect.Entities/1.0.0": {
+        "runtime": {
+          "CleanArchitect.Entities.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
   },
   "libraries": {
     "CleanArchitect.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CleanArchitect.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CleanArchitect.Entities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

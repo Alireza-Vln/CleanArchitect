@@ -10,86 +10,336 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="917c1365-6813-4006-ad19-9b1d0070bb86" name="Changes" comment="CleanArchitect">
+    <list default="true" id="917c1365-6813-4006-ad19-9b1d0070bb86" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/CleanArchitect.Entities/Book.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CleanArchitect.Migration/Migrations/_2024132061455_addTestsJsno.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CleanArchitect.Migration/Runner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CleanArchitect.Persistence.EF/Books/BookEntityMap.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CleanArchitect.Persistence.EF/Books/EFBookRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CleanArchitect.Persistence.EF/CleanArchitect.Persistence.EF.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CleanArchitect.Persistence.EF/EFDataContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CleanArchitect.Persistence.EF/EFUnitOfWork.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CleanArchitect.Persistence.EF/bin/Debug/net8.0/CleanArchitect.Persistence.EF.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CleanArchitect.Persistence.EF/bin/Debug/net8.0/CleanArchitect.Persistence.EF.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CleanArchitect.RestApi/Controller/Books/BookController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CleanArchitect.Services/Books/AddBookDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CleanArchitect.Services/Books/BookService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CleanArchitect.Services/Books/IBookRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CleanArchitect.Services/Books/IBookService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/BookTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/Infrastructure/DataBaseConfig/Integration/BDDHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/Infrastructure/DataBaseConfig/Integration/TenantIntegrationTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/Infrastructure/DataBaseConfig/Unit/EFInMemoryDatabase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/Infrastructure/DummyData/DummyFile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/Infrastructure/DummyData/DummyFileAndGuid.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/Infrastructure/DummyData/DummyGuid.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/Infrastructure/DummyData/DummyString.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/Infrastructure/DummyData/DummyStringAndGuid.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/Infrastructure/DummyData/DummyThreeString.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/Infrastructure/DummyData/DummyTowString.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/Infrastructure/DummyData/FakeDate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/Infrastructure/DummyData/GuidEmpty.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/Infrastructure/DummyData/IntInvalidId.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/Infrastructure/DummyData/TowDummyGuid.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CleanArchitect/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CleanArchitect/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/CleanArchitect/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/CleanArchitect/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/CleanArchitect/FileContentIndex/c96a046d-d24b-4fe2-8352-a9f54d76642d.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/CleanArchitect/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/CleanArchitect/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/CleanArchitect/v17/DocumentLayout.backup.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/CleanArchitect/v17/DocumentLayout.backup.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/CleanArchitect/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/CleanArchitect/v17/DocumentLayout.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/cleanarchitect.metadata.v9.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/cleanarchitect.metadata.v9.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/cleanarchitect.projects.v9.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/cleanarchitect.projects.v9.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Application/bin/Debug/net8.0/CleanArchitect.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Application/bin/Debug/net8.0/CleanArchitect.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Application/bin/Debug/net8.0/CleanArchitect.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Application/bin/Debug/net8.0/CleanArchitect.Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CleanArchitect.Application/obj/Debug/net8.0/CleanArchitect.Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Application/obj/Debug/net8.0/CleanArchitect.Application.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CleanArchitect.Application/obj/Debug/net8.0/CleanArchitect.Application.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Application/obj/Debug/net8.0/CleanArchitect.Application.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Application/obj/Debug/net8.0/CleanArchitect.Application.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Application/obj/Debug/net8.0/CleanArchitect.Application.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Application/obj/Debug/net8.0/CleanArchitect.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Application/obj/Debug/net8.0/CleanArchitect.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Application/obj/Debug/net8.0/CleanArchitect.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Application/obj/Debug/net8.0/CleanArchitect.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Application/obj/Debug/net8.0/ref/CleanArchitect.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Application/obj/Debug/net8.0/ref/CleanArchitect.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Application/obj/Debug/net8.0/refint/CleanArchitect.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Application/obj/Debug/net8.0/refint/CleanArchitect.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CleanArchitect.Application/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Application/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Application/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Contracts/Interfaces/UnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Contracts/Interfaces/UnitOfWork.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Contracts/bin/Debug/net8.0/CleanArchitect.Contracts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Contracts/bin/Debug/net8.0/CleanArchitect.Contracts.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Contracts/bin/Debug/net8.0/CleanArchitect.Contracts.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Contracts/bin/Debug/net8.0/CleanArchitect.Contracts.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CleanArchitect.Contracts/obj/Debug/net8.0/CleanArchitect.Contracts.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Contracts/obj/Debug/net8.0/CleanArchitect.Contracts.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CleanArchitect.Contracts/obj/Debug/net8.0/CleanArchitect.Contracts.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Contracts/obj/Debug/net8.0/CleanArchitect.Contracts.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Contracts/obj/Debug/net8.0/CleanArchitect.Contracts.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Contracts/obj/Debug/net8.0/CleanArchitect.Contracts.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Contracts/obj/Debug/net8.0/CleanArchitect.Contracts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Contracts/obj/Debug/net8.0/CleanArchitect.Contracts.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Contracts/obj/Debug/net8.0/CleanArchitect.Contracts.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Contracts/obj/Debug/net8.0/CleanArchitect.Contracts.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Contracts/obj/Debug/net8.0/ref/CleanArchitect.Contracts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Contracts/obj/Debug/net8.0/ref/CleanArchitect.Contracts.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Contracts/obj/Debug/net8.0/refint/CleanArchitect.Contracts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Contracts/obj/Debug/net8.0/refint/CleanArchitect.Contracts.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CleanArchitect.Contracts/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Contracts/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Contracts/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Contracts/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Entities/bin/Debug/net8.0/CleanArchitect.Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Entities/bin/Debug/net8.0/CleanArchitect.Entities.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Entities/bin/Debug/net8.0/CleanArchitect.Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Entities/bin/Debug/net8.0/CleanArchitect.Entities.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CleanArchitect.Entities/obj/Debug/net8.0/CleanArchitect.Entities.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Entities/obj/Debug/net8.0/CleanArchitect.Entities.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CleanArchitect.Entities/obj/Debug/net8.0/CleanArchitect.Entities.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Entities/obj/Debug/net8.0/CleanArchitect.Entities.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Entities/obj/Debug/net8.0/CleanArchitect.Entities.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Entities/obj/Debug/net8.0/CleanArchitect.Entities.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Entities/obj/Debug/net8.0/CleanArchitect.Entities.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Entities/obj/Debug/net8.0/CleanArchitect.Entities.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Entities/obj/Debug/net8.0/CleanArchitect.Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Entities/obj/Debug/net8.0/CleanArchitect.Entities.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Entities/obj/Debug/net8.0/CleanArchitect.Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Entities/obj/Debug/net8.0/CleanArchitect.Entities.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Entities/obj/Debug/net8.0/ref/CleanArchitect.Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Entities/obj/Debug/net8.0/ref/CleanArchitect.Entities.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Entities/obj/Debug/net8.0/refint/CleanArchitect.Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Entities/obj/Debug/net8.0/refint/CleanArchitect.Entities.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CleanArchitect.Entities/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Entities/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Entities/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Entities/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Infrastructure/bin/Debug/net8.0/CleanArchitect.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Infrastructure/bin/Debug/net8.0/CleanArchitect.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Infrastructure/bin/Debug/net8.0/CleanArchitect.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Infrastructure/bin/Debug/net8.0/CleanArchitect.Infrastructure.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CleanArchitect.Infrastructure/obj/Debug/net8.0/CleanArchitect.Infrastructure.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Infrastructure/obj/Debug/net8.0/CleanArchitect.Infrastructure.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CleanArchitect.Infrastructure/obj/Debug/net8.0/CleanArchitect.Infrastructure.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Infrastructure/obj/Debug/net8.0/CleanArchitect.Infrastructure.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Infrastructure/obj/Debug/net8.0/CleanArchitect.Infrastructure.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Infrastructure/obj/Debug/net8.0/CleanArchitect.Infrastructure.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Infrastructure/obj/Debug/net8.0/CleanArchitect.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Infrastructure/obj/Debug/net8.0/CleanArchitect.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Infrastructure/obj/Debug/net8.0/CleanArchitect.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Infrastructure/obj/Debug/net8.0/CleanArchitect.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Infrastructure/obj/Debug/net8.0/ref/CleanArchitect.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Infrastructure/obj/Debug/net8.0/ref/CleanArchitect.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Infrastructure/obj/Debug/net8.0/refint/CleanArchitect.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Infrastructure/obj/Debug/net8.0/refint/CleanArchitect.Infrastructure.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CleanArchitect.Infrastructure/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Infrastructure/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CleanArchitect.Migration/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Migration/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Infrastructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Infrastructure/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Migration/CleanArchitect.Migration.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Migration/CleanArchitect.Migration.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Migration/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Migration/bin/Debug/net8.0/CleanArchitect.Migration.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Migration/bin/Debug/net8.0/CleanArchitect.Migration.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Migration/bin/Debug/net8.0/CleanArchitect.Migration.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Migration/bin/Debug/net8.0/CleanArchitect.Migration.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Migration/bin/Debug/net8.0/CleanArchitect.Migration.exe" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Migration/bin/Debug/net8.0/CleanArchitect.Migration.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Migration/bin/Debug/net8.0/CleanArchitect.Migration.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Migration/bin/Debug/net8.0/CleanArchitect.Migration.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Migration/obj/CleanArchitect.Migration.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Migration/obj/CleanArchitect.Migration.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CleanArchitect.Migration/obj/Debug/net8.0/CleanArchitect.Migration.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Migration/obj/Debug/net8.0/CleanArchitect.Migration.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CleanArchitect.Migration/obj/Debug/net8.0/CleanArchitect.Migration.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Migration/obj/Debug/net8.0/CleanArchitect.Migration.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Migration/obj/Debug/net8.0/CleanArchitect.Migration.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Migration/obj/Debug/net8.0/CleanArchitect.Migration.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Migration/obj/Debug/net8.0/CleanArchitect.Migration.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Migration/obj/Debug/net8.0/CleanArchitect.Migration.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Migration/obj/Debug/net8.0/CleanArchitect.Migration.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Migration/obj/Debug/net8.0/CleanArchitect.Migration.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Migration/obj/Debug/net8.0/CleanArchitect.Migration.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Migration/obj/Debug/net8.0/CleanArchitect.Migration.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Migration/obj/Debug/net8.0/CleanArchitect.Migration.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Migration/obj/Debug/net8.0/CleanArchitect.Migration.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Migration/obj/Debug/net8.0/CleanArchitect.Migration.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Migration/obj/Debug/net8.0/CleanArchitect.Migration.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Migration/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Migration/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Migration/obj/Debug/net8.0/ref/CleanArchitect.Migration.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Migration/obj/Debug/net8.0/ref/CleanArchitect.Migration.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Migration/obj/Debug/net8.0/refint/CleanArchitect.Migration.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Migration/obj/Debug/net8.0/refint/CleanArchitect.Migration.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Migration/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Migration/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Migration/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Migration/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Migration/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Migration/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CleanArchitect.Migration/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Migration/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/obj/Debug/net8.0/CleanArchitect.Persistence.Ef.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/obj/Debug/net8.0/CleanArchitect.Persistence.Ef.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/obj/Debug/net8.0/CleanArchitect.Persistence.Ef.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/obj/Debug/net8.0/CleanArchitect.Persistence.Ef.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Migration/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Migration/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/CleanArchitect.Persistence.Ef.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/EfDataContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/UnitOfWorks/EfUnitOfWork.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/bin/Debug/net8.0/CleanArchitect.Contracts.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/bin/Debug/net8.0/CleanArchitect.Contracts.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/bin/Debug/net8.0/CleanArchitect.Entities.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/bin/Debug/net8.0/CleanArchitect.Entities.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/bin/Debug/net8.0/CleanArchitect.Persistence.Ef.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/bin/Debug/net8.0/CleanArchitect.Persistence.Ef.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/bin/Debug/net8.0/CleanArchitect.Persistence.Ef.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/bin/Debug/net8.0/CleanArchitect.Services.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/bin/Debug/net8.0/CleanArchitect.Services.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/obj/CleanArchitect.Persistence.Ef.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/obj/CleanArchitect.Persistence.Ef.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/obj/CleanArchitect.Persistence.Ef.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/obj/Debug/net8.0/CleanArc.61E757C7.Up2Date" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/obj/Debug/net8.0/CleanArchitect.Persistence.Ef.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/obj/Debug/net8.0/CleanArchitect.Persistence.Ef.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/obj/Debug/net8.0/CleanArchitect.Persistence.Ef.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/obj/Debug/net8.0/CleanArchitect.Persistence.Ef.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/obj/Debug/net8.0/CleanArchitect.Persistence.Ef.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/obj/Debug/net8.0/CleanArchitect.Persistence.Ef.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/obj/Debug/net8.0/CleanArchitect.Persistence.Ef.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/obj/Debug/net8.0/CleanArchitect.Persistence.Ef.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/obj/Debug/net8.0/CleanArchitect.Persistence.Ef.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/obj/Debug/net8.0/CleanArchitect.Persistence.Ef.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/obj/Debug/net8.0/LoanManagementSystem.Persistence.Ef.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/obj/Debug/net8.0/LoanManagementSystem.Persistence.Ef.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/obj/Debug/net8.0/LoanManagementSystem.Persistence.Ef.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/obj/Debug/net8.0/LoanManagementSystem.Persistence.Ef.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/obj/Debug/net8.0/LoanManagementSystem.Persistence.Ef.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/obj/Debug/net8.0/LoanManagementSystem.Persistence.Ef.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/obj/Debug/net8.0/ref/CleanArchitect.Persistence.Ef.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/obj/Debug/net8.0/refint/CleanArchitect.Persistence.Ef.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/obj/LoanManagementSystem.Persistence.Ef.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/obj/LoanManagementSystem.Persistence.Ef.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/obj/LoanManagementSystem.Persistence.Ef.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Persistence.EFfff/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Persistence.EFfff/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/obj/rider.project.model.nuget.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Persistence.Ef/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.RestApi/CleanArchitect.RestApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.RestApi/CleanArchitect.RestApi.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.RestApi/CleanArchitect.RestApi.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.RestApi/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.RestApi/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CleanArchitect.RestApi/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.RestApi/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.RestApi/bin/Debug/net8.0/CleanArchitect.Contracts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.RestApi/bin/Debug/net8.0/CleanArchitect.Contracts.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.RestApi/bin/Debug/net8.0/CleanArchitect.Contracts.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.RestApi/bin/Debug/net8.0/CleanArchitect.Contracts.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.RestApi/bin/Debug/net8.0/CleanArchitect.Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.RestApi/bin/Debug/net8.0/CleanArchitect.Entities.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.RestApi/bin/Debug/net8.0/CleanArchitect.Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.RestApi/bin/Debug/net8.0/CleanArchitect.Entities.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.RestApi/bin/Debug/net8.0/CleanArchitect.Persistence.Ef.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.RestApi/bin/Debug/net8.0/CleanArchitect.Persistence.Ef.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.RestApi/bin/Debug/net8.0/CleanArchitect.Persistence.Ef.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.RestApi/bin/Debug/net8.0/CleanArchitect.Persistence.Ef.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.RestApi/bin/Debug/net8.0/CleanArchitect.RestApi.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.RestApi/bin/Debug/net8.0/CleanArchitect.RestApi.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.RestApi/bin/Debug/net8.0/CleanArchitect.RestApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.RestApi/bin/Debug/net8.0/CleanArchitect.RestApi.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.RestApi/bin/Debug/net8.0/CleanArchitect.RestApi.exe" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.RestApi/bin/Debug/net8.0/CleanArchitect.RestApi.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.RestApi/bin/Debug/net8.0/CleanArchitect.RestApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.RestApi/bin/Debug/net8.0/CleanArchitect.RestApi.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.RestApi/bin/Debug/net8.0/CleanArchitect.Services.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.RestApi/bin/Debug/net8.0/CleanArchitect.Services.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.RestApi/bin/Debug/net8.0/CleanArchitect.Services.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.RestApi/bin/Debug/net8.0/CleanArchitect.Services.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.RestApi/bin/Debug/net8.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.RestApi/bin/Debug/net8.0/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.RestApi/obj/CleanArchitect.RestApi.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.RestApi/obj/CleanArchitect.RestApi.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CleanArchitect.RestApi/obj/Debug/net8.0/CleanArchitect.RestApi.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.RestApi/obj/Debug/net8.0/CleanArchitect.RestApi.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CleanArchitect.RestApi/obj/Debug/net8.0/CleanArchitect.RestApi.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.RestApi/obj/Debug/net8.0/CleanArchitect.RestApi.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.RestApi/obj/Debug/net8.0/CleanArchitect.RestApi.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.RestApi/obj/Debug/net8.0/CleanArchitect.RestApi.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.RestApi/obj/Debug/net8.0/CleanArchitect.RestApi.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.RestApi/obj/Debug/net8.0/CleanArchitect.RestApi.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.RestApi/obj/Debug/net8.0/CleanArchitect.RestApi.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.RestApi/obj/Debug/net8.0/CleanArchitect.RestApi.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.RestApi/obj/Debug/net8.0/CleanArchitect.RestApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.RestApi/obj/Debug/net8.0/CleanArchitect.RestApi.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.RestApi/obj/Debug/net8.0/CleanArchitect.RestApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.RestApi/obj/Debug/net8.0/CleanArchitect.RestApi.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.RestApi/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.RestApi/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.RestApi/obj/Debug/net8.0/ref/CleanArchitect.RestApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.RestApi/obj/Debug/net8.0/ref/CleanArchitect.RestApi.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.RestApi/obj/Debug/net8.0/refint/CleanArchitect.RestApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.RestApi/obj/Debug/net8.0/refint/CleanArchitect.RestApi.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.RestApi/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.RestApi/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.RestApi/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.RestApi/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.RestApi/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.RestApi/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CleanArchitect.RestApi/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.RestApi/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.RestApi/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.RestApi/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Services/CleanArchitect.Services.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Services/CleanArchitect.Services.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Services/bin/Debug/net8.0/CleanArchitect.Services.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Services/bin/Debug/net8.0/CleanArchitect.Services.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Services/bin/Debug/net8.0/CleanArchitect.Services.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Services/bin/Debug/net8.0/CleanArchitect.Services.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Services/bin/Debug/net8.0/CleanArchitect.Services.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Services/bin/Debug/net8.0/CleanArchitect.Services.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Services/obj/CleanArchitect.Services.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Services/obj/CleanArchitect.Services.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CleanArchitect.Services/obj/Debug/net8.0/CleanArchitect.Services.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Services/obj/Debug/net8.0/CleanArchitect.Services.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CleanArchitect.Services/obj/Debug/net8.0/CleanArchitect.Services.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Services/obj/Debug/net8.0/CleanArchitect.Services.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Services/obj/Debug/net8.0/CleanArchitect.Services.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Services/obj/Debug/net8.0/CleanArchitect.Services.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Services/obj/Debug/net8.0/CleanArchitect.Services.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Services/obj/Debug/net8.0/CleanArchitect.Services.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Services/obj/Debug/net8.0/CleanArchitect.Services.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Services/obj/Debug/net8.0/CleanArchitect.Services.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Services/obj/Debug/net8.0/CleanArchitect.Services.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Services/obj/Debug/net8.0/CleanArchitect.Services.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Services/obj/Debug/net8.0/ref/CleanArchitect.Services.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Services/obj/Debug/net8.0/ref/CleanArchitect.Services.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Services/obj/Debug/net8.0/refint/CleanArchitect.Services.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Services/obj/Debug/net8.0/refint/CleanArchitect.Services.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Services/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Services/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Services/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Services/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Services/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Services/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CleanArchitect.Services/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Services/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.Services/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.Services/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitect.sln" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitect.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.Application.Integration.Tests/bin/Debug/net8.0/CleanArchitect.Application.Integration.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.Application.Integration.Tests/bin/Debug/net8.0/CleanArchitect.Application.Integration.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.Application.Integration.Tests/bin/Debug/net8.0/CleanArchitect.Application.Integration.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.Application.Integration.Tests/bin/Debug/net8.0/CleanArchitect.Application.Integration.Tests.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.Application.Integration.Tests/obj/Debug/net8.0/CleanArchitect.Application.Integration.Tests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.Application.Integration.Tests/obj/Debug/net8.0/CleanArchitect.Application.Integration.Tests.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.Application.Integration.Tests/obj/Debug/net8.0/CleanArchitect.Application.Integration.Tests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.Application.Integration.Tests/obj/Debug/net8.0/CleanArchitect.Application.Integration.Tests.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.Application.Integration.Tests/obj/Debug/net8.0/CleanArchitect.Application.Integration.Tests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.Application.Integration.Tests/obj/Debug/net8.0/CleanArchitect.Application.Integration.Tests.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.Application.Integration.Tests/obj/Debug/net8.0/CleanArchitect.Application.Integration.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.Application.Integration.Tests/obj/Debug/net8.0/CleanArchitect.Application.Integration.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.Application.Integration.Tests/obj/Debug/net8.0/CleanArchitect.Application.Integration.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.Application.Integration.Tests/obj/Debug/net8.0/CleanArchitect.Application.Integration.Tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.Application.Integration.Tests/obj/Debug/net8.0/ref/CleanArchitect.Application.Integration.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.Application.Integration.Tests/obj/Debug/net8.0/ref/CleanArchitect.Application.Integration.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.Application.Integration.Tests/obj/Debug/net8.0/refint/CleanArchitect.Application.Integration.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.Application.Integration.Tests/obj/Debug/net8.0/refint/CleanArchitect.Application.Integration.Tests.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.Application.Integration.Tests/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.Application.Integration.Tests/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.Application.Integration.Tests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.Application.Integration.Tests/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/CleanArchitect.Service.Unit.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/CleanArchitect.Service.Unit.Tests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/bin/Debug/net8.0/CleanArchitect.Service.Unit.Tests.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/bin/Debug/net8.0/CleanArchitect.Service.Unit.Tests.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/bin/Debug/net8.0/CleanArchitect.Service.Unit.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/bin/Debug/net8.0/CleanArchitect.Service.Unit.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/bin/Debug/net8.0/CleanArchitect.Service.Unit.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/bin/Debug/net8.0/CleanArchitect.Service.Unit.Tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/bin/Debug/net8.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/obj/CleanArchitect.Service.Unit.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/obj/CleanArchitect.Service.Unit.Tests.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/obj/CleanArchitect.Service.Unit.Tests.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/obj/CleanArchitect.Service.Unit.Tests.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/obj/Debug/net8.0/CleanArchitect.Service.Unit.Tests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/obj/Debug/net8.0/CleanArchitect.Service.Unit.Tests.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/obj/Debug/net8.0/CleanArchitect.Service.Unit.Tests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/obj/Debug/net8.0/CleanArchitect.Service.Unit.Tests.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/obj/Debug/net8.0/CleanArchitect.Service.Unit.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/obj/Debug/net8.0/CleanArchitect.Service.Unit.Tests.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/obj/Debug/net8.0/CleanArchitect.Service.Unit.Tests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/obj/Debug/net8.0/CleanArchitect.Service.Unit.Tests.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/obj/Debug/net8.0/CleanArchitect.Service.Unit.Tests.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/obj/Debug/net8.0/CleanArchitect.Service.Unit.Tests.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/obj/Debug/net8.0/CleanArchitect.Service.Unit.Tests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/obj/Debug/net8.0/CleanArchitect.Service.Unit.Tests.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/obj/Debug/net8.0/CleanArchitect.Service.Unit.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/obj/Debug/net8.0/CleanArchitect.Service.Unit.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/obj/Debug/net8.0/CleanArchitect.Service.Unit.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/obj/Debug/net8.0/CleanArchitect.Service.Unit.Tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/obj/Debug/net8.0/ref/CleanArchitect.Service.Unit.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/obj/Debug/net8.0/ref/CleanArchitect.Service.Unit.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/obj/Debug/net8.0/refint/CleanArchitect.Service.Unit.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/obj/Debug/net8.0/refint/CleanArchitect.Service.Unit.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/CleanArchitect.TestTools.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/CleanArchitect.TestTools.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/Infrastructure/DataBaseConfig/DbContextHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/Infrastructure/DataBaseConfig/DbContextHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/Infrastructure/DataBaseConfig/EnumerableHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/Infrastructure/EnumerableHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/Infrastructure/DataBaseConfig/Integration/BusinessIntegrationTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/Infrastructure/DataBaseConfig/Integration/BusinessIntegrationTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/Infrastructure/DataBaseConfig/Integration/Fixtures/ConfigurationFixture.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/Infrastructure/DataBaseConfig/Integration/Fixtures/ConfigurationFixture.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/Infrastructure/DataBaseConfig/Integration/Fixtures/DatabaseFixture.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/Infrastructure/DataBaseConfig/Integration/Fixtures/DatabaseFixture.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/Infrastructure/DataBaseConfig/Integration/Fixtures/EFDataContextDatabaseFixture.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/Infrastructure/DataBaseConfig/Integration/Fixtures/EFDataContextDatabaseFixture.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/bin/Debug/net8.0/CleanArchitect.Contracts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/bin/Debug/net8.0/CleanArchitect.Contracts.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/bin/Debug/net8.0/CleanArchitect.Contracts.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/bin/Debug/net8.0/CleanArchitect.Contracts.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/bin/Debug/net8.0/CleanArchitect.Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/bin/Debug/net8.0/CleanArchitect.Entities.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/bin/Debug/net8.0/CleanArchitect.Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/bin/Debug/net8.0/CleanArchitect.Entities.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/bin/Debug/net8.0/CleanArchitect.Persistence.Ef.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/bin/Debug/net8.0/CleanArchitect.Persistence.Ef.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/bin/Debug/net8.0/CleanArchitect.Persistence.Ef.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/bin/Debug/net8.0/CleanArchitect.Persistence.Ef.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/bin/Debug/net8.0/CleanArchitect.Services.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/bin/Debug/net8.0/CleanArchitect.Services.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/bin/Debug/net8.0/CleanArchitect.Services.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/bin/Debug/net8.0/CleanArchitect.Services.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/bin/Debug/net8.0/CleanArchitect.TestTools.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/bin/Debug/net8.0/CleanArchitect.TestTools.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/bin/Debug/net8.0/CleanArchitect.TestTools.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/bin/Debug/net8.0/CleanArchitect.TestTools.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/bin/Debug/net8.0/CleanArchitect.TestTools.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/bin/Debug/net8.0/CleanArchitect.TestTools.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/obj/CleanArchitect.TestTools.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/obj/CleanArchitect.TestTools.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/obj/Debug/net8.0/CleanArchitect.TestTools.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/obj/Debug/net8.0/CleanArchitect.TestTools.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/obj/Debug/net8.0/CleanArchitect.TestTools.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/obj/Debug/net8.0/CleanArchitect.TestTools.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/obj/Debug/net8.0/CleanArchitect.TestTools.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/obj/Debug/net8.0/CleanArchitect.TestTools.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/obj/Debug/net8.0/CleanArchitect.TestTools.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/obj/Debug/net8.0/CleanArchitect.TestTools.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/obj/Debug/net8.0/CleanArchitect.TestTools.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/obj/Debug/net8.0/CleanArchitect.TestTools.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/obj/Debug/net8.0/CleanArchitect.TestTools.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/obj/Debug/net8.0/CleanArchitect.TestTools.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/obj/Debug/net8.0/CleanArchitect.TestTools.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/obj/Debug/net8.0/CleanArchitect.TestTools.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/obj/Debug/net8.0/ref/CleanArchitect.TestTools.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/obj/Debug/net8.0/ref/CleanArchitect.TestTools.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/obj/Debug/net8.0/refint/CleanArchitect.TestTools.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/obj/Debug/net8.0/refint/CleanArchitect.TestTools.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/CleanArchitect.TestTools/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DpaMonitoringSettings">
+    <option name="autoShow" value="false" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/CleanArchitect.Contracts/Interfaces/UnitOfWork.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/06c046bf69aa4f768c77e50706275b1b26a820/40/4514b66c/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/06c046bf69aa4f768c77e50706275b1b26a820/56/a2c8e37d/ModelBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CleanArchitect.Contracts/Interfaces/UnitOfWork.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CleanArchitect.Contracts/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Toolset" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2pDHTB7ngQQRZlp1kfJsfKppoMl" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.CleanArchitect.RestApi: http.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Project.CleanArchitect.Migration.executor&quot;: &quot;Run&quot;,
+    &quot;95f15580-d824-4897-9c4e-51ccf7c2eac5.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;RiderNuGetOptionsPageId&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\welldone\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\welldone\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\welldone\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\welldone\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\welldone\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\welldone\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
-  <component name="RunManager" selected=".NET Project.CleanArchitect.Migration">
+}</component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.CleanArchitect.RestApi: http">
     <configuration name="CleanArchitect.Migration" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -163,7 +413,11 @@
       <option name="presentableId" value="Default" />
       <updated>1732293733419</updated>
       <workItem from="1732293735148" duration="1531000" />
-      <workItem from="1732298504429" duration="329000" />
+      <workItem from="1732298504429" duration="1089000" />
+      <workItem from="1733482526761" duration="680000" />
+      <workItem from="1733483366641" duration="5064000" />
+      <workItem from="1733489342076" duration="3914000" />
+      <workItem from="1733557126400" duration="2612000" />
     </task>
     <servers />
   </component>
@@ -176,5 +430,24 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="CleanArchitect" />
     <option name="LAST_COMMIT_MESSAGE" value="CleanArchitect" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Tests/CleanArchitect.Service.Unit.Tests/BookTests.cs</url>
+          <line>28</line>
+          <properties documentPath="C:\Users\welldone\Desktop\clean-architect\Tests\CleanArchitect.Service.Unit.Tests\BookTests.cs" containingFunctionPresentation="Method 'teest_test_for_jason'">
+            <startOffsets>
+              <option value="712" />
+            </startOffsets>
+            <endOffsets>
+              <option value="732" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

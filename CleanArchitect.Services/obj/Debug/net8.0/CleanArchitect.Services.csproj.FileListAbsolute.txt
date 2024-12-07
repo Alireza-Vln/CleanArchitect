@@ -1,10 +1,17 @@
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Services\bin\Debug\net8.0\CleanArchitect.Services.deps.json
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Services\bin\Debug\net8.0\CleanArchitect.Services.dll
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Services\bin\Debug\net8.0\CleanArchitect.Services.pdb
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Services\bin\Debug\net8.0\CleanArchitect.Contracts.dll
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Services\bin\Debug\net8.0\CleanArchitect.Entities.dll
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Services\bin\Debug\net8.0\CleanArchitect.Contracts.pdb
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Services\bin\Debug\net8.0\CleanArchitect.Entities.pdb
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Services\obj\Debug\net8.0\CleanArchitect.Services.csproj.AssemblyReference.cache
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Services\obj\Debug\net8.0\CleanArchitect.Services.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Services\obj\Debug\net8.0\CleanArchitect.Services.AssemblyInfoInputs.cache
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Services\obj\Debug\net8.0\CleanArchitect.Services.AssemblyInfo.cs
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Services\obj\Debug\net8.0\CleanArchitect.Services.csproj.CoreCompileInputs.cache
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Services\obj\Debug\net8.0\CleanArchitect.Services.sourcelink.json
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Services\obj\Debug\net8.0\CleanArc.18471451.Up2Date
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Services\obj\Debug\net8.0\CleanArchitect.Services.dll
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Services\obj\Debug\net8.0\refint\CleanArchitect.Services.dll
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Services\obj\Debug\net8.0\CleanArchitect.Services.pdb

@@ -1,19 +1,20 @@
-using CleanArchitect.Persistence.Ef;
+﻿
+using CleanArchitect.Persistence.EF;
 using Xunit;
 
-namespace CleanArchitect.TestTools.Infrastructure.DataBaseConfig.Integration.
-    Fixtures;
+namespace CleanArchitect.TestTools.Infrastructure.DataBaseConfig.Integration.Fixtures;
 
 [Collection(nameof(ConfigurationFixture))]
 public class EFDataContextDatabaseFixture : DatabaseFixture
 {
-    public static EfDataContext CreateDataContext(string tenantId)
-    {
-        var connectionString =
-            new ConfigurationFixture().Value.ConnectionString;
-        
+    public IQueryable<T> X<T>(IQueryable<T> query) => query;
 
-        return new EfDataContext(
-            $"server=.;database=DataBaseName;Trusted_Connection=True;Encrypt=false;TrustServerCertificate=true;");
+    protected EFDataContext CreateDataContext(string tenantId)
+    {
+        var connectionString = new ConfigurationFixture().Value.ConnectionString;
+
+
+        return new EFDataContext(
+            connectionString);
     }
 }

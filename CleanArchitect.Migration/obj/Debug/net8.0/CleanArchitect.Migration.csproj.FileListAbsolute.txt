@@ -1,3 +1,4 @@
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Migration\bin\Debug\net8.0\appsettings.json
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Migration\bin\Debug\net8.0\CleanArchitect.Migration.exe
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Migration\bin\Debug\net8.0\CleanArchitect.Migration.deps.json
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Migration\bin\Debug\net8.0\CleanArchitect.Migration.runtimeconfig.json
@@ -27,9 +28,18 @@ C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Migration\bin\Debug\net
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Migration\bin\Debug\net8.0\FluentMigrator.Runner.SqlServer.dll
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Migration\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Migration\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Migration\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Migration\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Migration\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Migration\bin\Debug\net8.0\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Migration\bin\Debug\net8.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Migration\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Migration\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Migration\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Migration\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Migration\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Migration\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Migration\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Migration\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Migration\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Migration\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
@@ -75,6 +85,7 @@ C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Migration\obj\Debug\net
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Migration\obj\Debug\net8.0\CleanArchitect.Migration.AssemblyInfoInputs.cache
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Migration\obj\Debug\net8.0\CleanArchitect.Migration.AssemblyInfo.cs
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Migration\obj\Debug\net8.0\CleanArchitect.Migration.csproj.CoreCompileInputs.cache
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Migration\obj\Debug\net8.0\CleanArchitect.Migration.sourcelink.json
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Migration\obj\Debug\net8.0\CleanArc.7766037A.Up2Date
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Migration\obj\Debug\net8.0\CleanArchitect.Migration.dll
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.Migration\obj\Debug\net8.0\refint\CleanArchitect.Migration.dll

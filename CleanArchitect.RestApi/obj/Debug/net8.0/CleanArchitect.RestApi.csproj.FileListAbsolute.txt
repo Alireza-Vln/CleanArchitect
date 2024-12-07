@@ -50,9 +50,9 @@ C:\Users\welldone\Desktop\clean-architect\CleanArchitect.RestApi\bin\Debug\net8.
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.RestApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.RestApi\bin\Debug\net8.0\CleanArchitect.Contracts.dll
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.RestApi\bin\Debug\net8.0\CleanArchitect.Entities.dll
-C:\Users\welldone\Desktop\clean-architect\CleanArchitect.RestApi\bin\Debug\net8.0\CleanArchitect.Persistence.Ef.dll
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.RestApi\bin\Debug\net8.0\CleanArchitect.Persistence.EF.dll
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.RestApi\bin\Debug\net8.0\CleanArchitect.Services.dll
-C:\Users\welldone\Desktop\clean-architect\CleanArchitect.RestApi\bin\Debug\net8.0\CleanArchitect.Persistence.Ef.pdb
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.RestApi\bin\Debug\net8.0\CleanArchitect.Persistence.EF.pdb
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.RestApi\bin\Debug\net8.0\CleanArchitect.Contracts.pdb
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.RestApi\bin\Debug\net8.0\CleanArchitect.Entities.pdb
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.RestApi\bin\Debug\net8.0\CleanArchitect.Services.pdb
@@ -63,6 +63,7 @@ C:\Users\welldone\Desktop\clean-architect\CleanArchitect.RestApi\obj\Debug\net8.
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.RestApi\obj\Debug\net8.0\CleanArchitect.RestApi.csproj.CoreCompileInputs.cache
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.RestApi\obj\Debug\net8.0\CleanArchitect.RestApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.RestApi\obj\Debug\net8.0\CleanArchitect.RestApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\welldone\Desktop\clean-architect\CleanArchitect.RestApi\obj\Debug\net8.0\CleanArchitect.RestApi.sourcelink.json
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.RestApi\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.RestApi\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\welldone\Desktop\clean-architect\CleanArchitect.RestApi\obj\Debug\net8.0\staticwebassets\msbuild.CleanArchitect.RestApi.Microsoft.AspNetCore.StaticWebAssets.props

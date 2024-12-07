@@ -1,11 +1,46 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "CleanArchitect.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CleanArchitect.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CleanArchitect.Contracts.dll": {}
+        }
+      },
+      "CleanArchitect.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CleanArchitect.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CleanArchitect.Entities.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CleanArchitect.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../CleanArchitect.Contracts/CleanArchitect.Contracts.csproj",
+      "msbuildProject": "../CleanArchitect.Contracts/CleanArchitect.Contracts.csproj"
+    },
+    "CleanArchitect.Entities/1.0.0": {
+      "type": "project",
+      "path": "../CleanArchitect.Entities/CleanArchitect.Entities.csproj",
+      "msbuildProject": "../CleanArchitect.Entities/CleanArchitect.Entities.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "CleanArchitect.Contracts >= 1.0.0",
+      "CleanArchitect.Entities >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\welldone\\.nuget\\packages\\": {}
@@ -34,7 +69,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Contracts\\CleanArchitect.Contracts.csproj": {
+              "projectPath": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Contracts\\CleanArchitect.Contracts.csproj"
+            },
+            "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Entities\\CleanArchitect.Entities.csproj": {
+              "projectPath": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Entities\\CleanArchitect.Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

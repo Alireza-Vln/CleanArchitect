@@ -1113,7 +1113,23 @@
           "bin/placeholder/CleanArchitect.Entities.dll": {}
         }
       },
-      "CleanArchitect.Persistence.Ef/1.0.0": {
+      "CleanArchitect.Persistence.EF/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CleanArchitect.Contracts": "1.0.0",
+          "CleanArchitect.Services": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.8",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8"
+        },
+        "compile": {
+          "bin/placeholder/CleanArchitect.Persistence.EF.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CleanArchitect.Persistence.EF.dll": {}
+        }
+      },
+      "CleanArchitect.Persistence.EFfff/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -1124,15 +1140,19 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8"
         },
         "compile": {
-          "bin/placeholder/CleanArchitect.Persistence.Ef.dll": {}
+          "bin/placeholder/CleanArchitect.Persistence.EFfff.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CleanArchitect.Persistence.Ef.dll": {}
+          "bin/placeholder/CleanArchitect.Persistence.EFfff.dll": {}
         }
       },
       "CleanArchitect.Services/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CleanArchitect.Contracts": "1.0.0",
+          "CleanArchitect.Entities": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/CleanArchitect.Services.dll": {}
         },
@@ -3267,10 +3287,15 @@
       "path": "../CleanArchitect.Entities/CleanArchitect.Entities.csproj",
       "msbuildProject": "../CleanArchitect.Entities/CleanArchitect.Entities.csproj"
     },
-    "CleanArchitect.Persistence.Ef/1.0.0": {
+    "CleanArchitect.Persistence.EF/1.0.0": {
       "type": "project",
-      "path": "../CleanArchitect.Persistence.Ef/CleanArchitect.Persistence.Ef.csproj",
-      "msbuildProject": "../CleanArchitect.Persistence.Ef/CleanArchitect.Persistence.Ef.csproj"
+      "path": "../CleanArchitect.Persistence.EF/CleanArchitect.Persistence.EF.csproj",
+      "msbuildProject": "../CleanArchitect.Persistence.EF/CleanArchitect.Persistence.EF.csproj"
+    },
+    "CleanArchitect.Persistence.EFfff/1.0.0": {
+      "type": "project",
+      "path": "../CleanArchitect.Persistence.EFfff/CleanArchitect.Persistence.EFfff.csproj",
+      "msbuildProject": "../CleanArchitect.Persistence.EFfff/CleanArchitect.Persistence.EFfff.csproj"
     },
     "CleanArchitect.Services/1.0.0": {
       "type": "project",
@@ -3280,7 +3305,8 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "CleanArchitect.Persistence.Ef >= 1.0.0",
+      "CleanArchitect.Persistence.EF >= 1.0.0",
+      "CleanArchitect.Persistence.EFfff >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 8.0.10",
       "Microsoft.EntityFrameworkCore >= 8.0.8",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.8",
@@ -3315,8 +3341,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Persistence.Ef\\CleanArchitect.Persistence.Ef.csproj": {
-              "projectPath": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Persistence.Ef\\CleanArchitect.Persistence.Ef.csproj"
+            "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Persistence.EFfff\\CleanArchitect.Persistence.EFfff.csproj": {
+              "projectPath": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Persistence.EFfff\\CleanArchitect.Persistence.EFfff.csproj"
+            },
+            "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Persistence.EF\\CleanArchitect.Persistence.EF.csproj": {
+              "projectPath": "C:\\Users\\welldone\\Desktop\\clean-architect\\CleanArchitect.Persistence.EF\\CleanArchitect.Persistence.EF.csproj"
             }
           }
         }

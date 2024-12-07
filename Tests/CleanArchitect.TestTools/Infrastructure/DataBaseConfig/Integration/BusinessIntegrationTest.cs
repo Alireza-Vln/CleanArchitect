@@ -1,13 +1,13 @@
-using CleanArchitect.Persistence.Ef;
+﻿using CleanArchitect.Persistence.EF;
 using CleanArchitect.TestTools.Infrastructure.DataBaseConfig.Integration.Fixtures;
 
 namespace CleanArchitect.TestTools.Infrastructure.DataBaseConfig.Integration;
 
 public class BusinessIntegrationTest : EFDataContextDatabaseFixture
 {
-    protected EfDataContext Context { get; init; }
-    protected EfDataContext SetupContext { get; init; }
-    protected EfDataContext ReadContext { get; init; }
+    protected EFDataContext Context { get; init; }
+    protected EFDataContext SetupContext { get; init; }
+    protected EFDataContext ReadContext { get; init; }
     protected string TenantId { get; } = "Tenant_Id";
     
     protected BusinessIntegrationTest(string? tenantId = null)

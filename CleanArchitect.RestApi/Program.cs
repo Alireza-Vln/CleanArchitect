@@ -1,5 +1,4 @@
-using CleanArchitect.Persistence.Ef;
-using CleanArchitect.Persistence.Ef.UnitOfWorks;
+using CleanArchitect.Persistence.EF;
 using CleanArchitect.Services.UnitOfWorks;
 using Microsoft.EntityFrameworkCore;
 
@@ -9,11 +8,12 @@ builder.Services.AddControllers();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddDbContext<EfDataContext>(options =>
+builder.Services.AddDbContext<EFDataContext>(options =>
     options.UseSqlServer(
         builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddScoped<UnitOfWork, EfUnitOfWork>();
+builder.Services.AddScoped<UnitOfWork, EFUnitOfWork>();
+
 
 var app = builder.Build();
 
